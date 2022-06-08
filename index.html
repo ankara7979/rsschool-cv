@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,85 +8,101 @@
   <title>CV HTML Rsschool</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-  <div class="cv">
-    <section>
-      <h1> Andriy Karaulchenko </h1>
-      <p><img src="images/avatar.jpg" width="300" height="200" alt="Avatar"></p>
-      <h4>1. Contact info:</h4>
-      <div class="contacts">
-        <div class="contact">
-          <div class="contact__type">
-          e-mail:
-          </div>
-          <div class="contact__value">
-            <a href="mailto:ankara.reactjs@gmail.com">ankara.reactjs@gmail.com</a>
-          </div>
-        </div>
-        <div class="contact">
-          <div class="contact__type">
-          Github:
-          </div>
-          <div class="contact__value">
-            <a href="https://github.com/ankara7979">https://github.com/ankara7979</a>
-          </div>
-        </div>
-        <div class="contact">
-          <div class="contact__type">
-          Skype:
-          </div>
-          <div class="contact__value">
-            <a href="skype:ankara7979">ankara7979</a>
-          </div>
-        </div>
-        <div class="contact">
-          <div class="contact__type">
-          Tel.:
-          </div>
-          <div class="contact__value">
-            <a href="tel:+380994188140">+38(099)418"&#8209;"81"&#8209;"40</a>
-          </div>
-        </div>
+  <div class="wrapper">
+    <header class="header">
+      <h1>Andriy Karaulchenko</h1>
+    </header>
+    <div class="photoWrapper">
+      <div class="user-img">
+        <img src="./images/photo.jpg" alt="Avatar">
       </div>
-    </section>
-    <section>
-      <h4>2. About:</h4>
+    </div>
+    <main>
+      <section>
+        <h4>1. Contact info:</h4>
+        <div class="contacts">
+          <div class="contact">
+            <div class="contact__type">
+              e-mail:
+            </div>
+            <div class="contact__value">
+              <a href="mailto:ankara.reactjs@gmail.com">ankara.reactjs@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact">
+            <div class="contact__type">
+              Skype:
+            </div>
+            <div class="contact__value">
+              <a href="skype:ankara7979">ankara7979</a>
+            </div>
+          </div>
+          <div class="contact">
+            <div class="contact__type">
+              Tel.:
+            </div>
+            <div class="contact__value">
+              <a href="tel:+380930188846">+38(093)018&#8209;88&#8209;46</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h4>2. About:</h4>
         <div class="about">Oldman, who code</div>
-    </section>
-    <section>
-      <h4>3. Skills:</h4>
+      </section>
+      <section>
+        <h4>3. Skills:</h4>
         <ul class="skills">
           <li>Fullstack developer</li>
           <li>JavaScript</li>
           <li>React</li>
           <li>Node-JS</li>
         </ul>
-    </section>
-    <section>
-      <h4>4. Code</h4>
-        <a href="https://github.com/ankara7979">Example of code (latest)</a>
-    </section>
-    <section>
-      <h4>5. Experience:</h4>
+      </section>
+      <section>
+        <h4>4. Code</h4>
+        <pre>
+        <code> const a=5;
+        const b=10;
+        function add(a,b){
+          return a+b
+        }
+        </code>
+      </pre>
+      </section>
+      <section>
+        <h4>5. Experience:</h4>
         <ul class="experience">
           <li>coding tests.</li>
           <li>projects from courses.</li>
           <li>freelance projects.</li>
         </ul>
-    </section>
-    <section>
-      <h4>6. Education:</h4>
+      </section>
+      <section>
+        <h4>6. Education:</h4>
         <ul class="education">
-          <li>Dnepropetrovsk College of Automation and Telemechanics (1996-1999).</li>
-          <li>Odessa National Telecommunications Academy (2006-2010).</li>
-          <li>Scillcrusial online school (2019"&#8209;"...).</li>
-          <li>RS School (2020"&#8209;"...).</li>
+          <li>Dnepropetrovsk College of Automation and Telemechanics (1996&#8209;1999).</li>
+          <li>Odessa National Telecommunications Academy (2006&#8209;2010).</li>
+          <li>Scillcrusial online school (2019&#8209;...).</li>
+          <li>RS School (2020&#8209;...).</li>
         </ul>
-    </section>
-    <section>
-      <h4>7. English:</h4>
-        <div class="language">speak and write</div>
-    </section>
+      </section>
+      <section>
+        <h4>7. English:</h4>
+        <div class="language">Speak and write</div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footerWrapper">
+        <a href="https://github.com/ankara7979"><img src="./svg/github_icon1.svg" alt="github icon"></a>
+        <h2 class="footerBottom">Created in 2022</h2>
+        <a href="https://rs.school/js/"><img src="./svg/rs_school_js.svg" alt="github icon" height="50"></a>
+      </div>
+    </footer>
   </div>
 </body>
+
 </html>
