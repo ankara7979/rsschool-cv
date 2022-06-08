@@ -1,0 +1,90 @@
+h1 {
+  color: #dd9c24;
+  margin-bottom: 0.25em;
+  margin-top: 0.25em;
+}
+
+h4 {
+  color: #fa6f6f;
+  font-size: 1em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #dd9c24;
+}
+
+.contacts {
+  margin-bottom: 2em;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.5em;
+}
+
+.contact__type {
+  min-width: 90px;
+}
+
+.footer {
+  border: solid 1px rgb(228, 223, 223);
+  height: 100px;
+  margin-top: 10px;
+}
+
+.footerWrapper {
+  /* margin-top: 50px;
+  margin: 0px 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footerBottom {
+  font-style: italic;
+  color: rgb(27, 236, 9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+code {
+  font-size: large;
+}
+
+.wrapper {
+  color: aliceblue;
+  width: 1120px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+body {
+  font-family: 'Hind Siliguri', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #c9ccdf;
+}
+
+
+.header {
+  width: 500px;
+}
+
+.user-img {
+  margin-top: 15px;
+
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.photoWrapper {
+  height: 120px;
+}
